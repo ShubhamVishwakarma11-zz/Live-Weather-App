@@ -20,7 +20,7 @@ function LoadWeather() {
             <h4> Humidity: ${data.main.humidity} %</h4>
             <h4> Wind: ${data.wind.speed} kmph </h4>
         `;
-        weatherData.innerHTML = html;
+        weatherData.innerHTML = html ;
 
     }) 
     .catch(err => console.log(err))
